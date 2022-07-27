@@ -119,3 +119,46 @@
     font-weight: 600;
     margin-bottom: 10px;
 }
+
+
+/*timer*/
+
+.quiz_box header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.quiz_box .timer {
+    display: flex;
+    align-items: center;
+    background-color: #112B2C;
+    color: #ffff;
+    padding: 5px;
+    border-radius: 3px;
+    font-size: 15px;
+}
+
+.quiz_box .timer .timer_text {
+    font-size: 14px;
+}
+
+.quiz_box .timer .timer_second {
+    font-size: 14px;
+    background-color: #f0a500;
+    border-radius: 3px;
+    padding: 3px;
+    margin-left: 3px;
+    width: 25px;
+    text-align: center;
+}
+
+.quiz_box .time_line {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: #f0a500;
+    height: 4px;
+    /* width: 550px; */
+}

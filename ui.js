@@ -7,7 +7,10 @@ function UI() {
         this.scor_box = document.querySelector(".scor_box"),
         this.option_list = document.querySelector(".option_list"),
         this.correctIcon = '<div class="icon"><i class="fas fa-check"></i></div>',
-        this.incorrectIcon = '<div class="icon"><i class="fas fa-times"></i></div>'
+        this.incorrectIcon = '<div class="icon"><i class="fas fa-times"></i></div>',
+        this.timer_text = document.querySelector(".timer_text"),
+        this.timer_second = document.querySelector(".timer_second"),
+        this.time_line = document.querySelector(".time_line")
 }
 
 UI.prototype.soruGoster = function(soru) {
